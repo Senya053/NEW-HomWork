@@ -6,10 +6,12 @@
 // 12821 -> да
 // 23432 -> да
 
+// 1 VAR
+
 // Console.WriteLine("Input five-digit number"); 
 // string number = Console.ReadLine();
-// int len = number.Length;
-// if (len == 5)
+// int digit = number.Length;
+// if (digit == 5)
 // {
 //     if (number[0] == number[4] && number[1] == number[3])
 //     {
@@ -24,6 +26,28 @@
 // {
 //     Console.WriteLine($"{number} - no five-digit number");
 // }
+
+// 2 VAR
+
+// Console.WriteLine("Input five-digit number"); 
+// string number = Console.ReadLine();
+// // int digit = number.Length;
+// if (number >9999 && num <100000)
+// {
+//     if (number/10000%10 == number%10 && number/1000%10 == number/100%10)
+//     {
+//         Console.WriteLine($"{number} - palindrome");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"{number} - no palindrome");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine($"{number} - no five-digit number");
+// }
+
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние
