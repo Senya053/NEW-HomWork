@@ -30,11 +30,10 @@
 // 2 VAR
 
 // Console.WriteLine("Input five-digit number"); 
-// string number = Console.ReadLine();
-// // int digit = number.Length;
-// if (number >9999 && num <100000)
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number >9999 && number <100000)
 // {
-//     if (number/10000%10 == number%10 && number/1000%10 == number/100%10)
+//     if (number/10000%10 == number%10 && number/1000%10 == number/10%10)
 //     {
 //         Console.WriteLine($"{number} - palindrome");
 //     }
@@ -84,15 +83,15 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-void Power(double N)
-{
-    double i = 1;
-    while(i<=N)
-    {
-         Console.WriteLine($"{i} -> {i}^3 -> {Math.Pow(i, 3)}");
-         i++;
-    }
-}
-Console.WriteLine("Input the number N:");
-double N = Convert.ToDouble(Console.ReadLine());
-Power(N);
+// void Power(double N)
+// {
+//     double i = 1;
+//     while(i<=N)
+//     {
+//          Console.WriteLine($"{i} -> {i}^3 -> {Math.Pow(i, 3)}");
+//          i++;
+//     }
+// }
+// Console.WriteLine("Input the number N:");
+// double N = Convert.ToDouble(Console.ReadLine());
+// Power(N);
