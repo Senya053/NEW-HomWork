@@ -116,7 +116,7 @@
 // void Difference (int[] array)
 // {
 //     int m = 0;
-//     int max=0;
+//     int max=array[0];
 //     int min=array[0];
 //         for(int i = 0; i < array.Length; i++)
 //     {
