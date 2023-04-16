@@ -31,12 +31,17 @@ void Show2DArray(double[,] array)
     }
     Console.WriteLine();
 }
-
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
 int rows = ReadInt("Введите количество строк: ");
 int colums = ReadInt("Введите количество столбцов: ");
 double[,] numbers = new double[rows, colums];
 Create2DRandomArray(numbers);
 Show2DArray(numbers);
+
 
 // Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
